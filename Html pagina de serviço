@@ -1,0 +1,87 @@
+<html>
+ <head>
+   <meta charset "utf-8">
+   <link rel ="stylesheet" type="text/css" href= "servico.css"/>
+<!--icones-->
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+<body>
+<header>
+   <!--Tabela Cabeçalho-->
+<table width = "100%" height = "100" class ="cabecalho">
+      <tr>
+<!--Icone do menu-->
+   <th><div class="menu-icon">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div> </th>
+  </div>
+<!--Logo cabeçalho-->
+   <th id="LogoCabec"><a href="H:\FronT\ProjetoHtmlCS\index.html">  CashShoes </th>
+<!--Caixa de texto-->
+   <th> <div class="search"><i class='bx bx-search'></i> <div class="textBox"></div><form action="/action_page.php">
+  <input type="text" id="fname" name="fname" placeholder="O que você procura?" size="50" class="text"></form> </th>
+   </div>
+</div>
+<!--Imagem perfil-->
+  <th> <div class="user">
+      <i class='bx bxs-user'> </i> </th>
+  </div>
+<!--Imagem Carrinho-->
+  <th> <div class="cart"><i class='bx bx-cart'></i> </tr></table>
+   </div>
+<!--Tabela Ofertas-->
+ <table  weidth="100" class ="Ofertas" height="10">
+     <tr>
+        <img scr="LogoCsR.png" width="50px">
+        <th id="Nov" class="Nav">Novidade</th>    
+        <th id="Mas" class="Nav">Masculino</th>    
+        <th id="Fem" class="Nav">Feminino</th>    
+        <th id="Mar" class="Nav">Marcas</th>    
+        <th id="Tam" class="Nav">Tamanho</th>    
+        <th id="Ofe" class="Nav"><a href="H:\FronT\ProjetoHtmlCS\PaginaServico\servico.html">Ofertas</th>
+        <th> <a href="H:\FronT\ProjetoHtmlCS\PaginaContato\contato.html"> Suporte de ajuda </th>
+     </tr>
+</table>
+</header>
+<!-- Tabela Produtos-->
+<table border="" class="Tprodutos"> 
+ <tr class="prods"> 
+   <td id="Tgenero"><img src="imagemGenero.png"></td>
+   <td><div class="col-1">
+      <img src="produtosG.png">
+      <h3>Tênis Nike Air Force</h3>
+      <p><h4>R$ 159,99</h4></p>
+</td></div>
+    <td> <div class="col-2">
+      <img src="produtosN.png">
+      <h3>Tênis Nike Downshifter 11, Masculino</h3>
+      <p><h4>R$ 199,99</h4></p>
+</td></div>
+    <td><div class="col-3">
+      <img src="produtosF.png">
+      <h3>Tênis Nike Air Max, Feminino</h3>
+      <p><h4>R$299,99</h4></p>
+</td></div>
+ </tr>
+<tr class="prods">
+    <td id="Ttamanho"><img src="imagemTamanho.png"></td>
+    <td><div class="col-4">
+       <img src="produtosP.png">
+       <h3>Tênis  Puma, Feminino</h3>
+       <p><h4>R$249,99</h4></p>
+</td></div>
+    <td><div class="col-5">
+       <img src="produtosD.png">
+       <h3>Tênis Adidas Upath Run Preto e Branco</h3>
+       <p><h4>R$379,99</h4></p>
+</td></div>
+    <td><div class="col-6">
+       <img src="produtosH.png">
+       <h3>Tênis Nike Downshifter 11 Masculino - Preto</h3>
+       <p><h4>R$249,99</h4></p>
+</td></div>
+</tr>
+</table>
+</body>
+</html>

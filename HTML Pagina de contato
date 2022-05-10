@@ -1,0 +1,64 @@
+
+<html>
+ <head>
+   <meta charset "utf-8">
+   <link rel ="stylesheet" type="text/css" href= "contato.css"/>
+<!--icones-->
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+<body>
+<header>
+   <!--Tabela Cabeçalho-->
+<table width = "100%" height = "100" class ="cabecalho">
+      <tr>
+<!--Icone do menu-->
+   <th><div class="menu-icon">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div> </th>
+  </div>
+<!--Logo cabeçalho-->
+   <th id="LogoCabec"><a href="H:\FronT\ProjetoHtmlCS\index.html"> CashShoes </th>
+<!--Caixa de texto-->
+   <th> <div class="search"><i class='bx bx-search'></i> <div class="textBox"></div><form action="/action_page.php">
+  <input type="text" id="fname" name="fname" placeholder="O que você procura?" size="50" class="text"></form> </th>
+   </div>
+</div>
+<!--Imagem perfil-->
+  <th> <div class="user">
+      <i class='bx bxs-user'> </i> </th>
+  </div>
+<!--Imagem Carrinho-->
+  <th> <div class="cart"><i class='bx bx-cart'></i> </tr></table>
+   </div>
+</header>
+<!--Tabela Suporte-->
+ <table class ="Ajuda">
+     <tr>
+        <th><div class="suporte"><i class='bx bx-support'></i><h3>Contate Via Suporte!<h3></th> 
+  </div>
+     </tr>
+ </table>
+<!-- Reclame aqui -->
+  <form action="/action_page.php">
+     <label for="fname"><h3>Relate o seu Problema: </h3></label>
+     <input class="reclame" type="text" id="fname" name="fname"><br><br>
+     <input type="submit" value="ENVIAR">
+  </form>
+<!-- Tabela de ajudas-->
+<table class="ajudas">
+<tr class="contato">
+<td id="pedidos"> <img src="pedidos.png"> </td>
+<td id="troca"> <img src="troca.png">  </td>
+<td id="dados"> <img src="dados.png">  </td>
+</tr></table>
+<table><tr>
+   <th id="charm"><h2> SO NA CASHSHOES.COM </h2></th>
+   <td></td>
+   <td class="insta"> <i class='bx bxl-instagram'></i> </td>
+   <td></td> 
+   <td class="twitter" > <i class='bx bxl-twitter'></i> </td>
+   <td></td>
+</tr></table>
+</body>
+</html>

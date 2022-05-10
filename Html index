@@ -1,0 +1,65 @@
+<html>
+ <head>
+   <meta charset "utf-8">
+   <link rel ="stylesheet" type="text/css" href= "estilo.css"/>
+<!--icones-->
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+<body>
+<header>
+   <!--Tabela Cabeçalho-->
+<table width="100%" height="100" class ="cabecalho">
+      <tr>
+<!--Icone do menu-->
+   <th><div class="menu-icon">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div> </th>
+  </div>
+<!--Logo cabeçalho-->
+   <th id="LogoCabec"> CashShoes </th>
+<!--Caixa de texto-->
+   <th> <div class="search"><i class='bx bx-search'></i> <div class="textBox"></div><form action="/action_page.php">
+  <input type="text" id="fname" name="fname" placeholder="O que você procura?" size="50" class="text"></form> </th>
+   </div>
+</div>
+<!--Imagem perfil-->
+  <th> <div class="user">
+      <i class='bx bxs-user'> </i> </th>
+  </div>
+<!--Imagem Carrinho-->
+  <th> <div class="cart"><i class='bx bx-cart'></i> </tr></table>
+   </div>
+<!--Tabela Ofertas-->
+ <table  weidth="100" class ="Ofertas" height="10">
+     <tr>
+        <img scr="LogoCsR.png" width="70px">
+        <th id="Nov" class="Nav">Novidade</th>    
+        <th id="Mas" class="Nav">Masculino</th>    
+        <th id="Fem" class="Nav">Feminino</th>    
+        <th id="Mar" class="Nav">Marcas</th>    
+        <th id="Tam" class="Nav">Tamanho</th>    
+        <th id="Ofe" class="Nav"><a href="H:\FronT\ProjetoHtmlCS\PaginaServico\servico.html">Ofertas</th>
+        <th> <a href="H:\FronT\ProjetoHtmlCS\PaginaContato\contato.html"> Suporte de ajuda </th>
+     </tr>
+</table>
+</header>
+<!--Fundo amarelo-->
+<table width="100%">
+<tr>
+<td coolspan="8"><section class="home container" id="home">
+   <img src="Amarelo.png" alt="">
+   <div class="home-text"></td>
+  </div></section>
+</tr></table>
+<table>
+<tr>
+   <td class="insta"> <i class='bx bxl-instagram'></i></td>
+   <td></td> 
+   <td class="twitter" > <i class='bx bxl-twitter'></i> </td>
+   <td></td>
+</tr>
+</table>
+
+</body>
+</html>

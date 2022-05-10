@@ -1,5 +1,5 @@
 # FronT-end-Cotemig
-FronT-end HTML e CSS
+FronT-end HTML e CSS.
 Atividade de um site de venda de tenis, CashShoes.
 Ela foi feita em tabelas, para um projeto da disciplina de Front-end no computador escolar.
 Então pode ser que de erro no codigo em outro computador se não mudar o link de algumas coisas.
